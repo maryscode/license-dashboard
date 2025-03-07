@@ -40,7 +40,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
 
 
-** Project Details **
+## Project Details
 ✅ Step 1: Set Up Next.js
 Installed Next.js (npx create-next-app@latest cbh-dashboard)
 Ran npm run dev to confirm it worked.
