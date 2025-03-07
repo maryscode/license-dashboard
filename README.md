@@ -1,13 +1,14 @@
-## About This Project
+# About This Project
 
 This project explores **Zustand** for global state management in a Next.js application.
 
-# Dashboard Tasks/Features
+## Dashboard Features
 
-1. **Set Up Next.js**  
+1. **Next.js with API routing** 
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app). 
 
-2. **Set Up Zustand for State Management**  
-   - Created `useLicenseStore.js` to manage licenses globally.
+2. **Zustand for State Management**  
+   Created `useLicenseStore.js` to manage licenses globally.
 
 3. **Fetch API Data & Store in Zustand**  
    - Created an API route (`/api/licenses`) to serve mock data.  
@@ -29,19 +30,16 @@ This project explores **Zustand** for global state management in a Next.js appli
    - Created a form where users can add a new license and update Zustand state.
 
 -------
-## Nextjs
-
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Access via: [http://localhost:3000](http://localhost:3000) 
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
