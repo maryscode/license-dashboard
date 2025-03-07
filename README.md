@@ -38,3 +38,32 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+
+
+** Project Details **
+✅ Step 1: Set Up Next.js
+Installed Next.js (npx create-next-app@latest cbh-dashboard)
+Ran npm run dev to confirm it worked.
+
+✅ Step 2: Set Up Zustand for State Management
+Installed Zustand (npm install zustand).
+Created useLicenseStore.js to manage licenses globally.
+
+✅ Step 3: Fetch API Data & Store in Zustand
+Created an API route (/api/licenses) to serve mock data.
+Modified Zustand store to fetch & store licenses in global state.
+Used useEffect in index.js to load licenses when the page loads.
+
+✅ Step 4: Install & Configure Tailwind CSS
+Verified Tailwind was installed (using PostCSS with v4.0).
+Styled the dashboard container & license list for better UI.
+
+✅ Step 5: Add Filtering for Licenses
+Modified Zustand store to store filterText.
+Created a search bar in index.js to filter licenses dynamically.
+
+✅ Step 6: Add a Reset Button for the Filter
+Added a "Reset" button to clear filterText and show all licenses.
+
+🔹 Step 8: Add New Licenses Dynamically
+📌 Goal: Create a form where users can add a new license, and update Zustand state.
